@@ -7,18 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E355FAF2D127E1335C9A8BDC /* Pods_KHL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88671338202185FA8422E794 /* Pods_KHL.framework */; };
 		FC305D0B28A4279B001ED651 /* KHLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D0A28A4279B001ED651 /* KHLApp.swift */; };
 		FC305D0D28A4279B001ED651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D0C28A4279B001ED651 /* ContentView.swift */; };
 		FC305D0F28A4279E001ED651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC305D0E28A4279E001ED651 /* Assets.xcassets */; };
 		FC305D1228A4279E001ED651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC305D1128A4279E001ED651 /* Preview Assets.xcassets */; };
+		FC305D2128A42836001ED651 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2028A42836001ED651 /* MainView.swift */; };
+		FC305D2328A42896001ED651 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2228A42896001ED651 /* MainTabView.swift */; };
+		FC305D2528A428D9001ED651 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2428A428D9001ED651 /* HomeView.swift */; };
+		FC305D2728A428E4001ED651 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2628A428E4001ED651 /* AccountView.swift */; };
+		FC305D2928A4292A001ED651 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2828A4292A001ED651 /* VideoView.swift */; };
+		FC305D2B28A42933001ED651 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2A28A42933001ED651 /* PhotoView.swift */; };
+		FC305D2D28A4293D001ED651 /* CupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC305D2C28A4293D001ED651 /* CupView.swift */; };
+		FC9EEDCC28A51885006C6C1E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDCB28A51885006C6C1E /* HomeViewModel.swift */; };
+		FC9EEDD028A518F7006C6C1E /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDCF28A518F7006C6C1E /* News.swift */; };
+		FC9EEDD228A51AD2006C6C1E /* Forecasts.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDD128A51AD2006C6C1E /* Forecasts.swift */; };
+		FC9EEDD428A51DDB006C6C1E /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDD328A51DDB006C6C1E /* Articles.swift */; };
+		FC9EEDD628A522D7006C6C1E /* Sponsor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDD528A522D7006C6C1E /* Sponsor.swift */; };
+		FC9EEDD828A53825006C6C1E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDD728A53825006C6C1E /* Photo.swift */; };
+		FC9EEDDC28A54777006C6C1E /* LeagueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDDB28A54777006C6C1E /* LeagueView.swift */; };
+		FC9EEDDE28A54781006C6C1E /* LeagueViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDDD28A54781006C6C1E /* LeagueViewModel.swift */; };
+		FC9EEDE128A547EA006C6C1E /* CustomNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDE028A547EA006C6C1E /* CustomNavBarView.swift */; };
+		FC9EEDE428A5802B006C6C1E /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDE328A5802B006C6C1E /* ContactsView.swift */; };
+		FC9EEDE628A58034006C6C1E /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDE528A58034006C6C1E /* ContactsViewModel.swift */; };
+		FC9EEDE928A580C4006C6C1E /* PhotoMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDE828A580C4006C6C1E /* PhotoMatchView.swift */; };
+		FC9EEDEB28A580CD006C6C1E /* PhotoMatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDEA28A580CD006C6C1E /* PhotoMatchViewModel.swift */; };
+		FC9EEDEE28AA3294006C6C1E /* CupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9EEDED28AA3293006C6C1E /* CupViewModel.swift */; };
+		FCA017A52AF5877500C43234 /* VideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA017A42AF5877500C43234 /* VideoViewModel.swift */; };
+		FCA017A82AF5907400C43234 /* YTVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA017A72AF5907400C43234 /* YTVideoView.swift */; };
+		FCA017AA2AF5922900C43234 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA017A92AF5922900C43234 /* Video.swift */; };
+		FCA017AD2AF59A4000C43234 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA017AC2AF59A4000C43234 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		371D688DD88E5176C0B3BC6B /* Pods-KHL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHL.release.xcconfig"; path = "Target Support Files/Pods-KHL/Pods-KHL.release.xcconfig"; sourceTree = "<group>"; };
+		376644A87E24E04E3FA60B72 /* Pods-KHL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KHL.debug.xcconfig"; path = "Target Support Files/Pods-KHL/Pods-KHL.debug.xcconfig"; sourceTree = "<group>"; };
+		88671338202185FA8422E794 /* Pods_KHL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KHL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC305D0728A4279B001ED651 /* KHL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KHL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC305D0A28A4279B001ED651 /* KHLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KHLApp.swift; sourceTree = "<group>"; };
 		FC305D0C28A4279B001ED651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC305D0E28A4279E001ED651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC305D1128A4279E001ED651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC305D2028A42836001ED651 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		FC305D2228A42896001ED651 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FC305D2428A428D9001ED651 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FC305D2628A428E4001ED651 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FC305D2828A4292A001ED651 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		FC305D2A28A42933001ED651 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		FC305D2C28A4293D001ED651 /* CupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupView.swift; sourceTree = "<group>"; };
+		FC9EEDCB28A51885006C6C1E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FC9EEDCF28A518F7006C6C1E /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		FC9EEDD128A51AD2006C6C1E /* Forecasts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecasts.swift; sourceTree = "<group>"; };
+		FC9EEDD328A51DDB006C6C1E /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		FC9EEDD528A522D7006C6C1E /* Sponsor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sponsor.swift; sourceTree = "<group>"; };
+		FC9EEDD728A53825006C6C1E /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		FC9EEDDB28A54777006C6C1E /* LeagueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueView.swift; sourceTree = "<group>"; };
+		FC9EEDDD28A54781006C6C1E /* LeagueViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueViewModel.swift; sourceTree = "<group>"; };
+		FC9EEDE028A547EA006C6C1E /* CustomNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavBarView.swift; sourceTree = "<group>"; };
+		FC9EEDE328A5802B006C6C1E /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		FC9EEDE528A58034006C6C1E /* ContactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewModel.swift; sourceTree = "<group>"; };
+		FC9EEDE828A580C4006C6C1E /* PhotoMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMatchView.swift; sourceTree = "<group>"; };
+		FC9EEDEA28A580CD006C6C1E /* PhotoMatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMatchViewModel.swift; sourceTree = "<group>"; };
+		FC9EEDED28AA3293006C6C1E /* CupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupViewModel.swift; sourceTree = "<group>"; };
+		FCA017A42AF5877500C43234 /* VideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewModel.swift; sourceTree = "<group>"; };
+		FCA017A72AF5907400C43234 /* YTVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YTVideoView.swift; sourceTree = "<group>"; };
+		FCA017A92AF5922900C43234 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		FCA017AC2AF59A4000C43234 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E355FAF2D127E1335C9A8BDC /* Pods_KHL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A71B70923B7481DD7B0ECDB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				376644A87E24E04E3FA60B72 /* Pods-KHL.debug.xcconfig */,
+				371D688DD88E5176C0B3BC6B /* Pods-KHL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9972B7F8B095B9C0BD1E38C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88671338202185FA8422E794 /* Pods_KHL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC305CFE28A4279B001ED651 = {
 			isa = PBXGroup;
 			children = (
 				FC305D0928A4279B001ED651 /* KHL */,
 				FC305D0828A4279B001ED651 /* Products */,
+				A71B70923B7481DD7B0ECDB3 /* Pods */,
+				F9972B7F8B095B9C0BD1E38C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +125,7 @@
 		FC305D0928A4279B001ED651 /* KHL */ = {
 			isa = PBXGroup;
 			children = (
+				FC305D1828A427A8001ED651 /* Modules */,
 				FC305D0A28A4279B001ED651 /* KHLApp.swift */,
 				FC305D0C28A4279B001ED651 /* ContentView.swift */,
 				FC305D0E28A4279E001ED651 /* Assets.xcassets */,
@@ -67,6 +142,182 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FC305D1828A427A8001ED651 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDDF28A547C7006C6C1E /* Custom */,
+				FC305D1F28A427DD001ED651 /* TabBar */,
+				FC9EEDCD28A518D6006C6C1E /* Core */,
+				FC305D1E28A427D7001ED651 /* Main */,
+				FC305D1D28A427D1001ED651 /* Cup */,
+				FC305D1C28A427CA001ED651 /* Photo */,
+				FC305D1B28A427C2001ED651 /* Video */,
+				FC305D1A28A427B9001ED651 /* Account */,
+				FC305D1928A427B4001ED651 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FC305D1928A427B4001ED651 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDE228A58017006C6C1E /* Contacts */,
+				FC9EEDDA28A5475F006C6C1E /* League */,
+				FC9EEDD928A54752006C6C1E /* Home */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC305D1A28A427B9001ED651 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2628A428E4001ED651 /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		FC305D1B28A427C2001ED651 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				FCA017AB2AF59A3300C43234 /* API */,
+				FCA017A62AF5905600C43234 /* YouTubeVideiView */,
+				FCA017A32AF586CD00C43234 /* View */,
+				FCA017A42AF5877500C43234 /* VideoViewModel.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		FC305D1C28A427CA001ED651 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDEC28A580D3006C6C1E /* Photo */,
+				FC9EEDE728A5809F006C6C1E /* PhotoMatch */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		FC305D1D28A427D1001ED651 /* Cup */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2C28A4293D001ED651 /* CupView.swift */,
+				FC9EEDED28AA3293006C6C1E /* CupViewModel.swift */,
+			);
+			path = Cup;
+			sourceTree = "<group>";
+		};
+		FC305D1E28A427D7001ED651 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2028A42836001ED651 /* MainView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FC305D1F28A427DD001ED651 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2228A42896001ED651 /* MainTabView.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FC9EEDCD28A518D6006C6C1E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDCE28A518DC006C6C1E /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FC9EEDCE28A518DC006C6C1E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDCF28A518F7006C6C1E /* News.swift */,
+				FC9EEDD128A51AD2006C6C1E /* Forecasts.swift */,
+				FC9EEDD328A51DDB006C6C1E /* Articles.swift */,
+				FC9EEDD528A522D7006C6C1E /* Sponsor.swift */,
+				FC9EEDD728A53825006C6C1E /* Photo.swift */,
+				FCA017A92AF5922900C43234 /* Video.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC9EEDD928A54752006C6C1E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2428A428D9001ED651 /* HomeView.swift */,
+				FC9EEDCB28A51885006C6C1E /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC9EEDDA28A5475F006C6C1E /* League */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDDB28A54777006C6C1E /* LeagueView.swift */,
+				FC9EEDDD28A54781006C6C1E /* LeagueViewModel.swift */,
+			);
+			path = League;
+			sourceTree = "<group>";
+		};
+		FC9EEDDF28A547C7006C6C1E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDE028A547EA006C6C1E /* CustomNavBarView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FC9EEDE228A58017006C6C1E /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDE328A5802B006C6C1E /* ContactsView.swift */,
+				FC9EEDE528A58034006C6C1E /* ContactsViewModel.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		FC9EEDE728A5809F006C6C1E /* PhotoMatch */ = {
+			isa = PBXGroup;
+			children = (
+				FC9EEDE828A580C4006C6C1E /* PhotoMatchView.swift */,
+				FC9EEDEA28A580CD006C6C1E /* PhotoMatchViewModel.swift */,
+			);
+			path = PhotoMatch;
+			sourceTree = "<group>";
+		};
+		FC9EEDEC28A580D3006C6C1E /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2A28A42933001ED651 /* PhotoView.swift */,
+			);
+			path = Photo;
+			sourceTree = "<group>";
+		};
+		FCA017A32AF586CD00C43234 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC305D2828A4292A001ED651 /* VideoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FCA017A62AF5905600C43234 /* YouTubeVideiView */ = {
+			isa = PBXGroup;
+			children = (
+				FCA017A72AF5907400C43234 /* YTVideoView.swift */,
+			);
+			path = YouTubeVideiView;
+			sourceTree = "<group>";
+		};
+		FCA017AB2AF59A3300C43234 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FCA017AC2AF59A4000C43234 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +325,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC305D1528A4279E001ED651 /* Build configuration list for PBXNativeTarget "KHL" */;
 			buildPhases = (
+				F556D3F68984072AFCAD4A2B /* [CP] Check Pods Manifest.lock */,
 				FC305D0328A4279B001ED651 /* Sources */,
 				FC305D0428A4279B001ED651 /* Frameworks */,
 				FC305D0528A4279B001ED651 /* Resources */,
+				418DE92A2D50CF3B96C5BF89 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +385,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		418DE92A2D50CF3B96C5BF89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KHL/Pods-KHL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KHL/Pods-KHL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KHL/Pods-KHL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F556D3F68984072AFCAD4A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KHL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FC305D0328A4279B001ED651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC9EEDE928A580C4006C6C1E /* PhotoMatchView.swift in Sources */,
+				FC305D2728A428E4001ED651 /* AccountView.swift in Sources */,
+				FC9EEDE628A58034006C6C1E /* ContactsViewModel.swift in Sources */,
+				FCA017AD2AF59A4000C43234 /* APIManager.swift in Sources */,
+				FC305D2928A4292A001ED651 /* VideoView.swift in Sources */,
+				FC9EEDD628A522D7006C6C1E /* Sponsor.swift in Sources */,
+				FC9EEDD428A51DDB006C6C1E /* Articles.swift in Sources */,
 				FC305D0D28A4279B001ED651 /* ContentView.swift in Sources */,
+				FC9EEDCC28A51885006C6C1E /* HomeViewModel.swift in Sources */,
+				FC305D2128A42836001ED651 /* MainView.swift in Sources */,
+				FCA017AA2AF5922900C43234 /* Video.swift in Sources */,
+				FC9EEDDE28A54781006C6C1E /* LeagueViewModel.swift in Sources */,
+				FCA017A52AF5877500C43234 /* VideoViewModel.swift in Sources */,
 				FC305D0B28A4279B001ED651 /* KHLApp.swift in Sources */,
+				FC9EEDD028A518F7006C6C1E /* News.swift in Sources */,
+				FC9EEDDC28A54777006C6C1E /* LeagueView.swift in Sources */,
+				FC9EEDEB28A580CD006C6C1E /* PhotoMatchViewModel.swift in Sources */,
+				FC9EEDD828A53825006C6C1E /* Photo.swift in Sources */,
+				FC9EEDE128A547EA006C6C1E /* CustomNavBarView.swift in Sources */,
+				FCA017A82AF5907400C43234 /* YTVideoView.swift in Sources */,
+				FC305D2D28A4293D001ED651 /* CupView.swift in Sources */,
+				FC9EEDD228A51AD2006C6C1E /* Forecasts.swift in Sources */,
+				FC9EEDE428A5802B006C6C1E /* ContactsView.swift in Sources */,
+				FC305D2528A428D9001ED651 /* HomeView.swift in Sources */,
+				FC305D2328A42896001ED651 /* MainTabView.swift in Sources */,
+				FC305D2B28A42933001ED651 /* PhotoView.swift in Sources */,
+				FC9EEDEE28AA3294006C6C1E /* CupViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +581,7 @@
 		};
 		FC305D1628A4279E001ED651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376644A87E24E04E3FA60B72 /* Pods-KHL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +611,7 @@
 		};
 		FC305D1728A4279E001ED651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371D688DD88E5176C0B3BC6B /* Pods-KHL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

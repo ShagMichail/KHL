@@ -1,0 +1,13 @@
+//
+//  Sponsor.swift
+//  KHL
+//
+//  Created by Михаил Шаговитов on 11.08.2022.
+//
+
+import SwiftUI
+
+struct Sponsor: Identifiable {
+    var id = UUID()
+    var image: String
+}

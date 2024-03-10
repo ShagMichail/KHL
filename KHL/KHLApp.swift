@@ -11,7 +11,7 @@ import SwiftUI
 struct KHLApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
